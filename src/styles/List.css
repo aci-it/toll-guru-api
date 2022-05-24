@@ -1,0 +1,190 @@
+.list-item-container,
+.list-label-container {
+    width: 100%;
+}
+
+.list-item-container *,
+.list-label-container * {
+    display: inline-block;
+    text-align: center;
+}
+
+.list-label,
+.list-item {
+    width: 15%;
+}
+
+.list-label-container {
+    background: #242424;
+    position: fixed;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+    top: 170px;
+}
+
+.list-items {
+    margin-top: 82px;
+    height: 800px;
+    overflow: auto;
+}
+
+.list-label h6 {
+    margin: 40px 0px 10px;
+}
+
+.list-item-container {
+    background: #1e1e1e;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.6);
+}
+
+.list-container {
+    background: #1a1a1a;
+}
+
+.list-stops-container {
+    width: 40%;
+    min-width: 460px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.list-stop h6 {
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+    width: 90px;
+}
+
+.list-stop {
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.stops-btn {
+    box-shadow: none;
+    background: #222;
+    color: white;
+    border: none;
+}
+
+.stops-btn:hover {
+    cursor: pointer;
+}
+
+.route-info-container {
+    width: 55%;
+    position: relative;
+    top: -42px;
+    display: inline-flex;
+    float: right;
+}
+
+.show-routes-btn {
+    margin-left: 80px;
+}
+
+.route-info h4 {
+    margin: 10px 0px;
+    display: inline;
+    margin-left: 40px;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5000;
+}
+
+.popup-background {
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.popup-card {
+    position: fixed;
+    width: 600px;
+    top: 15%;
+    left: 50%;
+    margin-left: -300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px black;
+}
+
+.popup-card h1 {
+    text-align: center;
+    color: black;
+}
+
+.popup-routes {
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 0px 1px grey;
+    padding: 10px;
+}
+
+.popup-route-info h5,
+.popup-route-info h6 {
+    color: black;
+    margin: 0px;
+}
+
+.loader-container {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    top: 10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.loader-container svg {
+    z-index: 9999;
+    width: 100%;
+}
+
+.loader-container svg * {
+    stroke: white;
+}
+
+.exit-btn-container {
+    margin: auto;
+    padding: 20px 0px 20px;
+    width: 80px;
+}
+
+.exit-btn {
+    text-align: center;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 16px;
+}
+
+.exit-btn:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.search-input {
+    margin-top: 30px;
+    padding: 8px 6px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+}
+
+@media (max-width: 1043px) {
+    .route-info-container {
+        top: -63px;
+    }
+}

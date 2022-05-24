@@ -1,0 +1,7 @@
+.csv-reader-container {
+    position: fixed;
+    background: #242424;
+    height: 170px;
+    color: white;
+    width: 100%;
+}
